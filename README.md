@@ -12,9 +12,9 @@ Herramienta educativa para aprender comandos Linux desde terminal.
 
 ## Instalación
 
-sudo dpkg -i ddcommands.deb
+sudo dpkg -i ddcommands_1.0.deb
 
-## Dependencias
+## Dependencias NO obligatorias pero recomendadas
 
 sudo apt install glow
 
@@ -22,12 +22,13 @@ sudo apt install glow
 
 ddcommands "comando"
 
-## Tecnologías usadas
+## Tecnologías utilizadas
 
 - Bash
 - Markdown
 - Linux
 - Glow
+- Github
 
 ## Autor
 

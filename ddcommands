@@ -10,8 +10,14 @@ fi
 FILE="$COMMAND_DIR/$1.md"
 
 if [ -f "$FILE" ]; then
-    glow -p "$FILE"
+
+    # Verificar si glow está instalado
+    if command -v glow >/dev/null 2>&1; then
+        glow -p "$FILE"
+    else
+        cat "$FILE"
+    fi
+
 else
     echo "El comando '$1' no está disponible en ddcommands."
-fi
-
+fi 

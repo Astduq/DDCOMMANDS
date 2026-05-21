@@ -4,5 +4,4 @@ Section: education
 Priority: optional
 Architecture: all
 Maintainer: Aster Xavier Duque Lopez
-Depends: glow
-Description: Diccionario de comandos Linux orientado a estudiantes y principiantes.
+Description: Diccionario de comandos Linux orientado a estudiantes y principiantes. 
