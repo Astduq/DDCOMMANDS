@@ -1,0 +1,17 @@
+#!/bin/bash
+
+COMMAND_DIR="/usr/share/ddcommands"
+
+if [ -z "$1" ]; then
+    echo "Uso: ddcommands [comando]"
+    exit 1
+fi
+
+FILE="$COMMAND_DIR/$1.md"
+
+if [ -f "$FILE" ]; then
+    glow -p "$FILE"
+else
+    echo "El comando '$1' no está disponible en ddcommands."
+fi
+
